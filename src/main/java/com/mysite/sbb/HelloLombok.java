@@ -11,7 +11,7 @@ public class HelloLombok {
     private final int lombok;
 
     public static void main(String[] args) {
-        HelloLombok helloLombok = new HelloLombok("헬로",5);
+        HelloLombok helloLombok = new HelloLombok("헬로!",5);
         System.out.println(helloLombok.getHello());
         System.out.println(helloLombok.getLombok());
     }
